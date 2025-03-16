@@ -12,7 +12,7 @@ const outfit = Outfit({subsets:["latin"]})
 export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
-      <html lang="en">
+      <html lang="en" suppressHydrationWarning>
         <body
           className={outfit.className}
         >

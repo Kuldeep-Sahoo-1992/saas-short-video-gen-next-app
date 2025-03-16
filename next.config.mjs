@@ -1,7 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/saas-short-video-gen-next-app",
-
   images: {
     domains: [
       "cdn.lucidpic.com",
